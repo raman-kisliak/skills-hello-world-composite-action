@@ -8,7 +8,7 @@ jobs:
     steps: 
       - uses: actions/checkout@v4 
       - id: foo 
-        uses: raman-kisliak/skills-hello-world-composite-action
+        uses: raman-kisliak/skills-hello-world-composite-action@main
         with: 
           who-to-greet: Raman Kisliak #⬅  Uwaga 
       - run: echo random-number "$RANDOM_NUMBER" 
